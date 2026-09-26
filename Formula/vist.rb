@@ -4,27 +4,27 @@
 class Vist < Formula
   desc "Command-line client for Vist"
   homepage "https://usevist.dev"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.0/vist_darwin_arm64"
-      sha256 "2f14fc497492c393be398c7a711893b1fa1a24f611e1902eb1210dcdd6b640ca"
+      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.1/vist_darwin_arm64"
+      sha256 "baf76f283c81ad20aa67a379df45d823e6696764590cedf2e6a6dfd2707c0428"
     end
     on_intel do
-      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.0/vist_darwin_amd64"
-      sha256 "a69daf12639aa2a8fd1472dad233ce823a1227e909057c7cee1811073ad4815f"
+      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.1/vist_darwin_amd64"
+      sha256 "c7894dd8a9eea14181be8809469512091a8a10b4d692cac501eca0989fd76291"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.0/vist_linux_arm64"
-      sha256 "c7ee305516b420efa7a421f6fd0ae4cff5dbc90998c3603c2ec995bcbaa8f090"
+      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.1/vist_linux_arm64"
+      sha256 "3824e9de34d5a3961fa5b3dbe0831591218377e634661e639090d60703a797a4"
     end
     on_intel do
-      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.0/vist_linux_amd64"
-      sha256 "28103d14d0bfae44b12a7fa91c13baf466ffd137b26a800b72cf3415ff3d93b1"
+      url "https://github.com/davidheijl/vist-releases/releases/download/cli-v0.1.1/vist_linux_amd64"
+      sha256 "22a4a9246ccb9726b3947b156f4ec59b560327f916a196a48fad717b867d279b"
     end
   end
 
